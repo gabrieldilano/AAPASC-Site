@@ -1,0 +1,57 @@
+@font-face {
+  font-family: UncutSans-Regular;
+  src: url(./fonts/UncutSans-Regular.woff);
+}
+
+@font-face {
+  font-family: Michroma;
+  src: url(./fonts/Michroma-Regular.woff);
+}
+
+@font-face {
+  font-family: OPTIGurney;
+  src: url(./fonts/OPTIGurney-MediumExpanded.woff);
+}
+
+/*/ {
+  border: 2px solid red;
+} */
+
+.michroma {
+  font-family: 'michroma';
+}
+
+.optigurney {
+  font-family: 'OPTIGurney';
+}
+
+.uncutsans-regular {
+  font-family: 'uncutsans-regular'
+}
+
+.navbar-link {
+  font-family: 'michroma';
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+  position: relative; /* Added position relative */
+  display: inline-block; /* Ensures the pseudo-element is correctly placed */
+}
+
+.navbar-link::after {
+  content: '';
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Fixed transition property */
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar-link:hover::after {
+  opacity: 1;
+}
