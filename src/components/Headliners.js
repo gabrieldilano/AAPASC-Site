@@ -5,7 +5,7 @@ export default function Headliners() {
         <>
         <div className="flex justify-center">
             <div className="max-w-7xl w-full p-4">
-                <h1 className="optigurney text-7xl text-center mt-20">
+                <h1 className="optigurney text-4xl sm:text-7xl md:text-9xl text-center mt-20">
                     Previous Artists
                 </h1>
                 <hr className="my-6 border-black sm:mx-auto dark:border-black lg:my-8 mb-20" />
@@ -63,10 +63,10 @@ export default function Headliners() {
                 </div>
                 </div>
             </div>
-                <p className="uncutsans-regular text-medium ms-4 mt-1 mb-1">PHOTOGRAPHY BY STEVEN BUI</p>
+                <p className="articulat-cf text-sm ms-4 mt-4 mb-1">PHOTOGRAPHY BY @PRESET.STEVEN</p>
                 <hr className="my-6 border-black sm:mx-auto dark:border-black lg:my-8" />
-                <h1 className="optigurney text-9xl text-right me-4 mt-2">EAJ PARK</h1>
-                <p className="uncutsans-regular text-medium text-right me-4 mb-32">KOREAN AMERICAN SINGER/SONGWRITER</p>
+                <h1 className="optigurney text-4xl sm:text-7xl md:text-9xl text-right me-4 mt-2">EAJ PARK</h1>
+                <p className="articulat-cf text-xl text-right me-4 mb-32">KOREAN AMERICAN SINGER/SONGWRITER</p>
 
                 <div className="grid gap-4">
                 {/* Top Row */}
@@ -122,10 +122,10 @@ export default function Headliners() {
                 </div>
                 </div>
             </div>
-                <p className="uncutsans-regular text-medium ms-4 mt-1 mb-1">PHOTOGRAPHY BY STEVEN BUI</p>
+                <p className="articulat-cf text-sm ms-4 mt-4 mb-1">PHOTOGRAPHY BY @PRESET.STEVEN</p>
                 <hr className="my-6 border-black sm:mx-auto dark:border-black lg:my-8" />
-                <h1 className="optigurney text-9xl text-right me-4 mt-2">SUNDIAL</h1>
-                <p className="uncutsans-regular text-medium text-right me-4 mb-32">POP-DUO JISU KIM AND DOROTHY CHAN</p>
+                <h1 className="optigurney text-4xl sm:text-7xl md:text-9xl text-right me-4 mt-2">SUNDIAL</h1>
+                <p className="articulat-cf text-xl text-right me-4 mb-32">POP-DUO JISU KIM AND DOROTHY CHAN</p>
             </div>
         </div>
       </>

@@ -2,7 +2,7 @@ export default function CultureFestInfo() {
   return (
     <div className="flex justify-center">
       <div className="max-w-7xl w-full p-4">
-            <h1 className="optigurney text-9xl text-center mt-20">
+            <h1 className="optigurney text-5xl sm:text-7xl md:text-9xl text-center mt-20">
                 CULTUREFEST
             </h1>
             <hr className="my-6 border-black sm:mx-auto dark:border-black lg:my-8 mb-20" />
@@ -12,7 +12,7 @@ export default function CultureFestInfo() {
               <h2 className="michroma text-3xl md:text-4xl mt-2">
                 Our signature end-of-year event celebrating AAPI heritage
               </h2>
-              <p className="uncutsans-regular mt-4">
+              <p className="articulat-cf font-light mt-12">
               Compromising of headlining artists from across the country, member organization performances, and food trucks, CultureFest aims to amplify AAPI voices and provide a space for AAPI artists and performance groups to showcase their talents.
               </p> 
             </div>
@@ -25,8 +25,8 @@ export default function CultureFestInfo() {
                     </svg>
                     </div>
                     <div className="ml-4">
-                        <h4 className="uncutsans-regular text-lg">SDFC Field</h4>
-                        <p className="uncutsans-regular text-sm">Our event is located in the heart of campus.</p>
+                        <h4 className="articulat-cf text-xl">SDFC Field</h4>
+                        <p className="articulat-cf text-sm mt-2">CultureFest is held in the heart of campus</p>
                     </div>
                 </div>
               <div className="flex items-center">
@@ -37,8 +37,8 @@ export default function CultureFestInfo() {
 
                 </div>
                 <div className="ml-4">
-                  <h4 className="uncutsans-regular text-lg">2000+ Attendees</h4>
-                  <p className="uncutsans-regular text-sm">all ASU and non-ASU students are welcome</p>
+                  <h4 className="articulat-cf text-xl">2000+ Attendees</h4>
+                  <p className="articulat-cf text-sm mt-2">all ASU and non-ASU students are welcome</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -52,8 +52,8 @@ export default function CultureFestInfo() {
                 </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="uncutsans-regular text-lg">20+ Performances</h4>
-                  <p className="uncutsans-regular text-sm">Featuring headling artists and member orgs</p>
+                  <h4 className="articulat-cf text-xl">20+ Performances</h4>
+                  <p className="articulat-cf text-sm mt-2">Featuring headling artists and member orgs</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -64,8 +64,8 @@ export default function CultureFestInfo() {
 
                 </div>
                 <div className="ml-4">
-                  <h4 className="uncutsans-regular text-lg">Food Trucks and Vendors</h4>
-                  <p className="uncutsans-regular text-sm">Supporting local AAPI businesses within the community</p>
+                  <h4 className="articulat-cf text-xl">Food and Vendors</h4>
+                  <p className="articulat-cf text-sm mt-2">Supporting local AAPI businesses within the community</p>
                 </div>
               </div>
             </div>
