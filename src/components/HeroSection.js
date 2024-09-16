@@ -1,13 +1,24 @@
 import InstagramEmbed from "./InstagramEmbed";
+import splitStringUsingRegex from "./splitStringUsingRegex";
+import {motion, Variants} from "framer-motion";
+
+const charVariants = {
+  hidden: { opacity: 0 },
+  reveal: { opacity: 1 }
+};
 
 export default function HeroSection () {
+
     return (
       <>
       <div className="flex justify-center h-screen">
         <div className="max-w-7xl w-full p-4">
           <img className="mt-16 h-[50vh] mx-auto"src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722461335/Multicolor_Large_byzmpz.png"></img>
           <h1 className="optigurney text-9xl text-right mt-16">WELCOME</h1>
-          <p className="michroma text-xl text-right">WE ARE THE ASIAN / ASIAN PACIFIC AMERICAN STUDENT COALITION OF ASU</p>
+          <motion.p initial="hidden" whileInView="reveal" transition= {{staggerChildren: 0.02}} className="michroma text-xl text-right">{splitStringUsingRegex("WE ARE THE ASIAN / ASIAN PACIFIC AMERICAN STUDENT COALITION OF ASU").map(char => (
+            <motion.span key={char} transition={{ duration:0.5}} variants={charVariants}>{char}</motion.span>
+          ))}
+          </motion.p>
           <hr className="my-6 border-black sm:mx-auto lg:my-8" />
         </div>
       </div>

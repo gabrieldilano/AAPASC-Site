@@ -41,7 +41,7 @@ export default function Contact() {
               type="email"
               name="user_email"
               id="email"
-              className="shadow-sm bg-white border border-black text-black text-sm rounded-xl block w-full p-2.5"
+              className="shadow-sm bg-white border border-black text-black text-sm rounded-lg block w-full p-2.5"
               required
             />
           </div>
@@ -53,7 +53,7 @@ export default function Contact() {
               type="text"
               name="subject"
               id="subject"
-              className="block p-3 w-full text-sm text-black bg-white rounded-xl border border-black shadow-sm"
+              className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-black shadow-sm"
               required
             />
           </div>
@@ -65,13 +65,13 @@ export default function Contact() {
               name="message"
               id="message"
               rows="6"
-              className="block p-2.5 w-full text-sm text-black bg-white rounded-xl shadow-sm border border-black"
+              className="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-black"
               required
             ></textarea>
           </div>
           <button
             type="submit"
-            className="articulat-cf py-3 px-5 text-sm text-center text-black rounded-xl bg-white border border-black hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
+            className="articulat-cf py-3 px-5 text-sm text-center text-black rounded-lg bg-white border border-black hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
           >
             SUBMIT
           </button>
