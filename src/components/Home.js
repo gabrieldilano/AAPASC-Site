@@ -1,12 +1,11 @@
-import Headliners from "./Headliners";
 import HeroSection from "./HeroSection";
-import InstagramEmbed from "./InstagramEmbed";
-import CultureFestCarousel from "./CultureFestCarousel";
 import RolesSection from "./RolesSection";
+import { SmoothScrollHero } from "./SmoothScrollHero";
 
 export default function Home() {
     return (
         <>
+        <SmoothScrollHero/>
         <HeroSection />
         <RolesSection />
         </>

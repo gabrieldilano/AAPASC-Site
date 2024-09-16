@@ -34,7 +34,7 @@ export default function RolesSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-20">
-          <h1 className="optigurney text-7xl mt-20 text-black">Our Roles in the Community</h1>
+          <h1 className="optigurney text-8xl mt-20 text-black">Our Roles in the Community</h1>
           <hr className="my-6 border-black lg:my-8" />
         </div>
 
