@@ -38,11 +38,6 @@ const CenterImage = () => {
   const clipPath = useMotionTemplate`polygon(${clip1}% ${clip1}%, ${clip2}% ${clip1}%, ${clip2}% ${clip2}%, ${clip1}% ${clip2}%)`;
 
 
-  const backgroundSize = useTransform(
-    scrollY,
-    [0, SECTION_HEIGHT + 500],
-    ["170%", "100%"]
-  );
   const opacity = useTransform(
     scrollY,
     [SECTION_HEIGHT, SECTION_HEIGHT + 500],
@@ -54,7 +49,6 @@ const CenterImage = () => {
       className="sticky top-0 h-screen w-full"
       style={{
         clipPath,
-        backgroundSize,
         opacity,
         backgroundImage:
           "url(https://res.cloudinary.com/dq6oea49h/image/upload/v1726522471/CF-_AAPASC_SB-18_ykbuw0.jpg)",
@@ -76,22 +70,22 @@ const ParallaxImages = () => {
         className="w-1/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1723868383/CF-_Eaj_SB-34_t7cym3.jpg"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1726601763/CF-_Eaj_SB-34_vi4e3l.webp"
         alt="Headliner Eaj"
         start={200}
         end={-250}
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1726526548/AAPASC_Community-144_1_ri5h27.jpg"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1726601763/AAPASC_Community-144_1_uxofy6.webp"
         alt="PASA TINIKLING"
         start={-200}
         end={200}
         className="ml-auto w-1/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/v1726525651/DSC_0085_nlij5o.jpg"
-        alt="Sabrina and Anna"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/v1726601903/DSC_0085_rmsxff.webp"
+        alt="OG AAPASC"
         start={0}
         end={-500}
         className="ml-24 w-5/12"

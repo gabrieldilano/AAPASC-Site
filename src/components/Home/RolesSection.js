@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import splitStringUsingRegex from "./splitStringUsingRegex";
+import splitStringUsingRegex from "../util/splitStringUsingRegex";
 
 // Card animation variants
 const cardVariants = {
@@ -33,8 +33,8 @@ export default function RolesSection() {
     <div className="bg-white text-white px-6 py-12 h-[100vh] flex items-center">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-20">
-          <h1 className="optigurney text-8xl mt-20 text-black">Our Roles in the Community</h1>
+        <div className="text-center mt-24 mb-20">
+          <h1 className="optigurney text-9xl mt-16 text-black">Our Roles</h1>
           <hr className="my-6 border-black lg:my-8" />
         </div>
 

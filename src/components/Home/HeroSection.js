@@ -1,4 +1,4 @@
-import splitStringUsingRegex from "./splitStringUsingRegex";
+import splitStringUsingRegex from "../util/splitStringUsingRegex";
 import {motion} from "framer-motion";
 
 const charVariants = {
@@ -29,7 +29,7 @@ export default function HeroSection () {
             whileInView="reveal"
             viewport={{ once: false, amount: 0.2 }}
             variants={textVariants}
-            className="optigurney text-white text-4xl sm:text-7xl md:text-9xl text-center mt-20"
+            className="optigurney text-white text-4xl sm:text-7xl md:text-9xl text-center mt-24"
           >
             What is AAPASC?
           </motion.h1>

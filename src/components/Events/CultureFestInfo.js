@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import splitStringUsingRegex from "./splitStringUsingRegex";
+import splitStringUsingRegex from "../util/splitStringUsingRegex";
 
 // Animation variants
 const textVariants = {
