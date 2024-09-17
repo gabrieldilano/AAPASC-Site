@@ -37,6 +37,11 @@ const CenterImage = () => {
 
   const clipPath = useMotionTemplate`polygon(${clip1}% ${clip1}%, ${clip2}% ${clip1}%, ${clip2}% ${clip2}%, ${clip1}% ${clip2}%)`;
 
+  const backgroundSize = useTransform(
+    scrollY,
+    [0, SECTION_HEIGHT + 500],
+    ["200%", "100%"]
+  );
 
   const opacity = useTransform(
     scrollY,
@@ -49,6 +54,7 @@ const CenterImage = () => {
       className="sticky top-0 h-screen w-full"
       style={{
         clipPath,
+        backgroundSize,
         opacity,
         backgroundImage:
           "url(https://res.cloudinary.com/dq6oea49h/image/upload/v1726522471/CF-_AAPASC_SB-18_ykbuw0.jpg)",
