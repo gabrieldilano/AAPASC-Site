@@ -10,11 +10,12 @@ export default function MemberOrgs() {
         </div>
         <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="text-center text-gray-500 dark:text-gray-400">
-            <img
-            className="mx-auto mb-4 w-36 h-36 rounded-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-            alt="Bonnie Avatar"
-            />
+        <img
+  className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-600"
+  src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732063538/image_123650291_zrice4.jpg"
+  alt="Bonnie Avatar"
+/>
+
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">AAJA</a>
             </h3>
@@ -59,7 +60,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asuabla/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -96,7 +97,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href=""
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -144,7 +145,7 @@ export default function MemberOrgs() {
             </li>
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu_apamsa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -170,7 +171,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/aphig_asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -207,7 +208,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/apidancediversity/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -244,7 +245,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/aznadance/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -281,7 +282,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/chasa_asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -318,7 +319,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asudchil/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -355,7 +356,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/epicmovementasu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -392,7 +393,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/hpicatasu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -417,11 +418,12 @@ export default function MemberOrgs() {
             </ul>
         </div>
         <div className="text-center text-gray-500 dark:text-gray-400">
-            <img
-            className="mx-auto mb-4 w-36 h-36 rounded-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-            alt="Bonnie Avatar"
-            />
+        <img
+  className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-800"
+  src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732064041/IMG_2758_idcu5n.jpg"
+  alt="Bonnie Avatar"
+/>
+
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">JSA</a>
             </h3>
@@ -429,7 +431,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/jsa.asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -466,7 +468,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu_kasa/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -503,7 +505,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/kode.asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -540,7 +542,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu_pasa/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -577,7 +579,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/permiasphoenix/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -614,7 +616,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asupiaaa/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -651,7 +653,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/saseasu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -688,7 +690,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/seaasa.asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -725,7 +727,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu.tsa/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -762,7 +764,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/ussa_asu/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -799,7 +801,7 @@ export default function MemberOrgs() {
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu.vsa/"
                 className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -810,7 +812,7 @@ export default function MemberOrgs() {
             </li>
             <li>
                 <a
-                href="#"
+                href="https://www.instagram.com/asu.vsa/"
                 className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                 >
                 <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">

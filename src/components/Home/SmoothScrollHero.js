@@ -1,15 +1,10 @@
-import {
-  motion,
-  useMotionTemplate,
-  useScroll,
-  useTransform,
-} from "framer-motion";
-import { useRef } from "react";
+import { useSpring, animated } from "@react-spring/web";
+import { useEffect, useRef, useState } from "react";
 
 export const SmoothScrollHero = () => {
   return (
     <div className="bg-white">
-        <Hero />
+      <Hero />
     </div>
   );
 };
@@ -30,35 +25,44 @@ const Hero = () => {
 };
 
 const CenterImage = () => {
-  const { scrollY } = useScroll();
+  const ref = useRef(null);
+  const [inView, setInView] = useState(false);
 
-  const clip1 = useTransform(scrollY, [0, 1500], [50, 0]);
-  const clip2 = useTransform(scrollY, [0, 1500], [50, 100]);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setInView(entry.isIntersecting);
+      },
+      { threshold: 0.5 }
+    );
 
-  const clipPath = useMotionTemplate`polygon(${clip1}% ${clip1}%, ${clip2}% ${clip1}%, ${clip2}% ${clip2}%, ${clip1}% ${clip2}%)`;
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
 
-  const backgroundSize = useTransform(
-    scrollY,
-    [0, SECTION_HEIGHT + 500],
-    ["200%", "100%"]
-  );
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
 
-  const opacity = useTransform(
-    scrollY,
-    [SECTION_HEIGHT, SECTION_HEIGHT + 500],
-    [1, 0]
-  );
+  const animationProps = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? "scale(1)" : "scale(1.2)",
+    config: { tension: 220, friction: 120 },
+  });
 
   return (
-    <motion.div
+    <animated.div
+      ref={ref}
       className="sticky top-0 h-screen w-full"
       style={{
-        clipPath,
-        backgroundSize,
-        opacity,
+        ...animationProps,
         backgroundImage:
-          "url(https://res.cloudinary.com/dq6oea49h/image/upload/v1726522471/CF-_AAPASC_SB-18_ykbuw0.jpg)",
+          "url(https://res.cloudinary.com/dq6oea49h/image/upload/f_auto,q_auto/v1726522471/CF-_AAPASC_SB-18_ykbuw0.jpg)",
         backgroundPosition: "center",
+        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
     />
@@ -69,58 +73,65 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/v1726525415/AAPASC_Community-216_hyamia.webp"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/f_auto,q_auto/v1726525415/AAPASC_Community-216_hyamia.webp"
         alt="A3X"
-        start={-200}
-        end={200}
         className="w-1/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1726601763/CF-_Eaj_SB-34_vi4e3l.webp"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart,f_auto,q_auto/v1726601763/CF-_Eaj_SB-34_vi4e3l.webp"
         alt="Headliner Eaj"
-        start={200}
-        end={-250}
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart/v1726601763/AAPASC_Community-144_1_uxofy6.webp"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/t_43smart,f_auto,q_auto/v1726601763/AAPASC_Community-144_1_uxofy6.webp"
         alt="PASA TINIKLING"
-        start={-200}
-        end={200}
         className="ml-auto w-1/3"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dq6oea49h/image/upload/v1726601903/DSC_0085_rmsxff.webp"
+        src="https://res.cloudinary.com/dq6oea49h/image/upload/f_auto,q_auto/v1726601903/DSC_0085_rmsxff.webp"
         alt="OG AAPASC"
-        start={0}
-        end={-500}
         className="ml-24 w-5/12"
       />
     </div>
   );
 };
 
-const ParallaxImg = ({ className, alt, src, start, end }) => {
+const ParallaxImg = ({ className, alt, src }) => {
   const ref = useRef(null);
+  const [inView, setInView] = useState(false);
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: [`${start}px end`, `end ${end * -1}px`],
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setInView(entry.isIntersecting);
+      },
+      { threshold: 0.3 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
+  const animationProps = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? "translateY(0)" : "translateY(50px)",
+    config: { tension: 220, friction: 30 },
   });
 
-  const opacity = useTransform(scrollYProgress, [0.75, 1], [1, 0]);
-  const scale = useTransform(scrollYProgress, [0.75, 1], [1, 0.85]);
-
-  const y = useTransform(scrollYProgress, [0, 1], [start, end]);
-  const transform = useMotionTemplate`translateY(${y}px) scale(${scale})`;
-
   return (
-    <motion.img
+    <animated.img
+      ref={ref}
       src={src}
       alt={alt}
-      className={className}
-      ref={ref}
-      style={{ transform, opacity }}
+      className={`${className} transition-all duration-500`}
+      style={animationProps}
     />
   );
 };
