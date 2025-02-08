@@ -7,6 +7,7 @@ import Events from './components/Events/Events';
 import Community from './components/Community/Community';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CultureFestPage from './components/Events/Culturefestpage';
 
 function AppContent() {
   const location = useLocation();
@@ -19,8 +20,10 @@ function AppContent() {
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/culturefest" element={<CultureFestPage/>} />
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
+         
         </Routes>
       <Footer />
     </>

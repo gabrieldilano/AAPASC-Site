@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
         <LandingSection/>
-        <SmoothScrollHero/>
+        {/* <SmoothScrollHero/> */}
         <HeroSection />
         <RolesSection />
         <GetInvolvedSection />
