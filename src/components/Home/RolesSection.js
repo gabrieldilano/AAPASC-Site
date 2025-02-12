@@ -46,12 +46,12 @@ export default function RolesSection() {
           whileInView="reveal"
           viewport={{ once: false, amount: 0.2 }} // Ensure animation happens again when scrolled into view
           variants={containerVariants} // Staggering effect for cards
-          className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center items-center"
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center items-stretch"
         >
           {/* Card 1 */}
           <motion.div
             variants={cardVariants} // Apply individual card animation
-            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col justify-between h-auto"
+            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col h-full"
           >
             <motion.h2
               initial="hidden"
@@ -80,7 +80,7 @@ export default function RolesSection() {
           {/* Card 2 */}
           <motion.div
             variants={cardVariants}
-            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col justify-between h-auto"
+            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col h-full"
           >
             <motion.h2
               initial="hidden"
@@ -111,7 +111,7 @@ export default function RolesSection() {
           {/* Card 3 */}
           <motion.div
             variants={cardVariants}
-            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col justify-between h-auto"
+            className="bg-transparent border-black border-[1px] rounded-3xl text-black p-6 flex flex-col h-full"
           >
             <motion.h2
               initial="hidden"
