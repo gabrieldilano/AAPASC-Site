@@ -8,7 +8,7 @@ export default function Events() {
     return (
         <>
         <VintageAlley/>
-        <CultureFestPage/>
+        {/* <CultureFestPage/> */}
             {/* <EventsPage/> */}
             {/* <Headliners /> */}
         </>

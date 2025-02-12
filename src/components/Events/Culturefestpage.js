@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { SmoothScrollHero } from "../Home/SmoothScrollHero";
 import CultureFestInfo from "./CultureFestInfo";
 import CultureFestPics from "./Culturefestpics";
 import Headliners from "./Headliners";
@@ -10,9 +9,11 @@ export default function CultureFestPage() {
   return (
     <>
       <CultureFestInfo />
+      <Headliners />
       <CultureFestOrgPerformances />
+       
       {/* <CultureFestPics/> */}
-      {/* <Headliners /> */}
+  
     </>
   );
 }

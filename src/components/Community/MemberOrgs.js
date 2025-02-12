@@ -2,7 +2,7 @@ export default function MemberOrgs() {
     return (
             <section className="bg-white dark:bg-gray-900">
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-            <h1 className="optigurney text-6xl text-center mt-20">
+            <h1 className="optigurney text-4xl sm:text-5xl md:text-7xl lg:text-9xl text-center mt-20">
                 Our Member Organizations
             </h1>
             <hr className="my-6 border-black sm:mx-auto dark:border-black lg:my-8 mb-20" />
@@ -11,15 +11,14 @@ export default function MemberOrgs() {
         <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="text-center text-gray-500 dark:text-gray-400">
         <img
-  className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-600"
-  src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732063538/image_123650291_zrice4.jpg"
-  alt="Bonnie Avatar"
-/>
+            className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-600"
+            src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732063538/image_123650291_zrice4.jpg"
+            />
 
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">AAJA</a>
             </h3>
-            <p>Asian American Journalists Association</p>
+            <p className="articulat-cf font-light">Asian American Journalists Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -51,12 +50,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/2_elxiup.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">ABLA</a>
             </h3>
-            <p>Asian Business Leaders Association</p>
+            <p className="articulat-cf font-light">Asian Business Leaders Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -88,12 +86,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460416/3_cqqlsz.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">ACEL</a>
             </h3>
-            <p>Asian Corporate and Entrepreneur Leaders</p>
+            <p className="articulat-cf font-light">Asian Corporate and Entrepreneur Leaders</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -125,12 +122,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/4_fpkdq4.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">AMSO</a>
             </h3>
-            <p>Asian Medical Student Organization</p>
+            <p className="articulat-cf font-light">Asian Medical Student Organization</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -162,12 +158,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/5_wb5kod.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">APhiG</a>
             </h3>
-            <p>Alpha Phi Gamma Sorority (ΑΦΓ)</p>
+            <p className="articulat-cf font-light">Alpha Phi Gamma Sorority (ΑΦΓ)</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -199,12 +194,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/6_i2hd7p.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">APIDD</a>
             </h3>
-            <p>API Dance Diversity</p>
+            <p className="articulat-cf font-light">API Dance Diversity</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -236,12 +230,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/7_rxopyq.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">AZNA</a>
             </h3>
-            <p>AZNA Dance</p>
+            <p className="articulat-cf font-light">AZNA Dance</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -273,12 +266,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/8_rcarcl.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">CHASA</a>
             </h3>
-            <p>Chinese American Student Association</p>
+            <p className="articulat-cf font-light">Chinese American Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -310,12 +302,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460418/9_clj6uo.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">DChiL</a>
             </h3>
-            <p>Delta Chi Lambda Sorority (ΔΧΛ)</p>
+            <p className="articulat-cf font-light">Delta Chi Lambda Sorority (ΔΧΛ)</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -347,12 +338,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460417/10_snij19.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">Epic Movement</a>
             </h3>
-            <p>desc</p>
+            <p className="articulat-cf font-light">A Cru Ministry</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -384,12 +374,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460418/11_s4pwai.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">HPIC</a>
             </h3>
-            <p>Hawai'i and Pacific Islander Club</p>
+            <p className="articulat-cf font-light">Hawai'i and Pacific Islander Club</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -419,12 +408,11 @@ export default function MemberOrgs() {
         </div>
         <div className="text-center text-gray-500 dark:text-gray-400">
         <img
-  className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-800"
-  src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732064041/IMG_2758_idcu5n.jpg"
-  alt="Bonnie Avatar"
-/>
+            className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-gray-800"
+            src="https://res.cloudinary.com/dc1fdigvg/image/upload/v1732064041/IMG_2758_idcu5n.jpg"
+            />
 
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">JSA</a>
             </h3>
             <p>Japanese Student Association</p>
@@ -459,12 +447,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460418/12_r1dmaf.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">KASA</a>
             </h3>
-            <p>Korean American Student Association</p>
+            <p className="articulat-cf font-light">Korean American Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -496,12 +483,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460418/13_dpgvoc.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">KoDE</a>
             </h3>
-            <p>K-Pop Dance Evolution</p>
+            <p className="articulat-cf font-light">K-Pop Dance Evolution</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -533,12 +519,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/14_rd6gmy.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">PASA</a>
             </h3>
-            <p>Philippine American Student Association</p>
+            <p className="articulat-cf font-light">Philippine American Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -570,12 +555,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/15_bpnnnq.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">PERMIAS</a>
             </h3>
-            <p>Persatuan Mahasiswa Indonesia di Amerika Serika</p>
+            <p className="articulat-cf font-light">Persatuan Mahasiswa Indonesia di Amerika Serika</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -607,12 +591,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/16_qrfreo.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">PIAAA</a>
             </h3>
-            <p>Pacific Islander and Asian Association</p>
+            <p className="articulat-cf font-light">Pacific Islander and Asian Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -644,12 +627,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/17_cnrwbt.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">SASE</a>
             </h3>
-            <p>Society of Asian Scientists and Engineers</p>
+            <p className="articulat-cf font-light">Society of Asian Scientists and Engineers</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -681,12 +663,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/18_qxyoim.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">SEAASA</a>
             </h3>
-            <p>Southeast Asian American Student Association</p>
+            <p className="articulat-cf font-light">Southeast Asian American Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -718,12 +699,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460419/19_meubwd.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">TSA</a>
             </h3>
-            <p>Taiwanese Student Association</p>
+            <p className="articulat-cf font-light">Taiwanese Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -755,12 +735,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460420/20_xjru17.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">USSA</a>
             </h3>
-            <p>United Society of South Asians</p>
+            <p className="articulat-cf font-light">United Society of South Asians</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a
@@ -792,12 +771,11 @@ export default function MemberOrgs() {
             <img
             className="mx-auto mb-4 w-36 h-36 rounded-full"
             src="https://res.cloudinary.com/dq6oea49h/image/upload/v1722460420/21_lvhxyf.png"
-            alt="Bonnie Avatar"
             />
-            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="michroma mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">VSA</a>
             </h3>
-            <p>Vietnamese Student Association</p>
+            <p className="articulat-cf font-light">Vietnamese Student Association</p>
             <ul className="flex justify-center mt-4 space-x-4">
             <li>
                 <a

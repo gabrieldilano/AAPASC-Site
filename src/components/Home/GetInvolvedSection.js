@@ -59,7 +59,7 @@ export default function GetInvolvedSection() {
         >
           <motion.div
             variants={cardVariants}
-            className="bg-transparent border-white border-[1px] rounded-3xl text-white p-6 flex flex-col justify-between max-w-md w-full text-center"
+            className="bg-transparent border-white border-[1px] rounded-3xl text-white p-6 flex flex-col justify-between max-w-lg w-full text-center"
           >
             <motion.h2
               initial="hidden"
@@ -78,6 +78,12 @@ export default function GetInvolvedSection() {
             <p className="articulat-cf font-light text-lg md:text-xl mt-6">
               Connect with students across the campus and help build a stronger AAPI community. Get involved in our events and initiatives!
             </p>
+            <a
+              href="/contact"
+              className="michroma  bg-white text-black px-4 py-3 sm:px-6 sm:py-3 rounded-full font-bold hover:bg-gray-400 hover:text-white transition duration-300 mb-4 mt-4 sm:mb-0"
+            >
+              Contact Us!
+            </a>
           </motion.div>
         </motion.div>
       </div>

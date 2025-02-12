@@ -13,7 +13,7 @@ export default function Nav() {
           alt="AAPASC Logo"
         />
         <span className="articulat-cf self-center whitespace-nowrap text-xl font-semibold">
-          AAPASC of ASU
+          AAPASC at ASU
         </span>
       </NavbarBrand>
       <NavbarToggle />
@@ -22,12 +22,13 @@ export default function Nav() {
           <Link to="/" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
             HOME
           </Link>
-          <Link to="/events" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
-            EVENTS
-          </Link>
           <Link to="/culturefest" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
             CULTUREFEST
           </Link>
+          {/* <Link to="/events" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
+            EVENTS
+          </Link> */}
+         
           <Link to="/community" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
             COMMUNITY
           </Link>

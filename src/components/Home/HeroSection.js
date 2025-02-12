@@ -1,5 +1,8 @@
 import splitStringUsingRegex from "../util/splitStringUsingRegex";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component"; // Lazy Load Images
+import "react-lazy-load-image-component/src/effects/blur.css"; // Blur effect for lazy loading
+
 
 const charVariants = {
   hidden: { opacity: 0 },
@@ -57,17 +60,31 @@ export default function HeroSection() {
             </div>
 
             {/* Image Grid Section */}
-            <div className="grid grid-cols-2 gap-4 h-auto max-h-[400px] overflow-hidden">
-              <img
-                className="w-full h-full rounded-lg object-cover"
+            <div className="grid grid-cols-2 gap-4 h-auto overflow-hidden">
+              <LazyLoadImage
+                className="w-full aspect-[4/3] rounded-lg object-cover"
                 src="https://res.cloudinary.com/dc1fdigvg/image/upload/w_800,h_600,c_fill/v1731826778/rfyr9ebxlxarotvpfgje.jpg"
-
-                alt="office content 1"
+                width={800}
+                height={600}
               />
-              <img
-                className="w-full h-full rounded-lg object-cover"
+              <LazyLoadImage
+                className="w-full aspect-[4/3] rounded-lg object-cover"
                 src="https://res.cloudinary.com/dc1fdigvg/image/upload/w_800,h_600,c_fill/v1731826774/g6dipg6wtqwush1uxuds.jpg"
-                alt="office content 2"
+                width={800}
+                height={600}
+              />
+              <LazyLoadImage
+                className="w-full aspect-[4/3] rounded-lg object-cover"
+                src="https://res.cloudinary.com/dq6oea49h/image/upload/w_800,h_600,c_fill/t_43landscape/v1726526548/AAPASC_Community-144_1_ri5h27.jpg"
+                width={800}
+                height={600}
+              />
+             
+              <LazyLoadImage
+                className="w-full aspect-[4/3] rounded-lg object-cover"
+                src="https://res.cloudinary.com/dq6oea49h/image/upload/w_800,h_600,c_fill/v1726601903/DSC_0085_rmsxff.webp"
+                width={800}
+                height={600}
               />
             </div>
           </div>
