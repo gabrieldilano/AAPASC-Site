@@ -60,10 +60,10 @@ export default function LandingSection() {
           {/* Buttons Section */}
           <div className="flex flex-wrap justify-center mt-8 space-x-2 sm:space-x-4">
             <a
-              href="/events"
+              href="/culturefest"
               className="michroma  bg-black text-white px-4 py-3 sm:px-6 sm:py-3 rounded-full font-bold hover:bg-white hover:text-black transition duration-300 mb-4 sm:mb-0"
             >
-              Upcoming Events
+             Explore CultureFest
             </a>
             <a
               href="/community"
