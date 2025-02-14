@@ -1,11 +1,34 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const form = useRef();
+  const [errors, setErrors] = useState({});
+
+  const validateForm = () => {
+    const formData = new FormData(form.current);
+    const newErrors = {};
+
+    if (!formData.get('user_email')) {
+      newErrors.user_email = 'Email is required';
+    }
+    if (!formData.get('subject')) {
+      newErrors.subject = 'Subject is required';
+    }
+    if (!formData.get('message')) {
+      newErrors.message = 'Message is required';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
 
     emailjs
       .sendForm('service_9ze26t9', 'template_b8o91y9', form.current, {
@@ -16,14 +39,14 @@ export default function Contact() {
           console.log("Email Sent");
           alert("Email Sent");
           form.current.reset();
+          setErrors({});
         },
         (error) => {
           console.log("Error", error.text);
-          alert("Error");
+          alert("Error sending email");
         },
       );
   };
-
 
   return (
     <section className="bg-white">
@@ -44,6 +67,7 @@ export default function Contact() {
               className="shadow-sm bg-white border border-black text-black text-sm rounded-lg block w-full p-2.5"
               required
             />
+            {errors.user_email && <p className="text-red-500 text-sm">{errors.user_email}</p>}
           </div>
           <div>
             <label htmlFor="subject" className="articulat-cf block mb-2 text-sm">
@@ -56,6 +80,7 @@ export default function Contact() {
               className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-black shadow-sm"
               required
             />
+            {errors.subject && <p className="text-red-500 text-sm">{errors.subject}</p>}
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="message" className="articulat-cf block mb-2 text-sm">
@@ -68,6 +93,7 @@ export default function Contact() {
               className="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-black"
               required
             ></textarea>
+            {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
           </div>
           <button
             type="submit"
