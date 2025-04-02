@@ -60,16 +60,16 @@ export default function LandingSection() {
           {/* Buttons Section */}
           <div className="flex flex-wrap justify-center mt-8 space-x-2 sm:space-x-4">
             <a
-              href="/culturefest"
-              className="michroma  bg-black text-white px-4 py-3 sm:px-6 sm:py-3 rounded-full font-bold hover:bg-white hover:text-black transition duration-300 mb-4 sm:mb-0"
-            >
-             Explore CultureFest
-            </a>
-            <a
-              href="/community"
+              href="https://asu.campuslabs.com/engage/event/10911632"
               className="michroma bg-black text-white px-4 py-3 sm:px-6 sm:py-3 rounded-full font-bold hover:bg-white hover:text-black transition duration-300 mb-4 sm:mb-0"
             >
-              Explore Our Cultural Clubs
+              RSVP to CultureFest(ASU)
+            </a>
+            <a
+              href="https://www.eventbrite.com/e/aapasc-culturefest-2025-tickets-1217166641189?aff=ebdssbdestsearch"
+              className="michroma bg-black text-white px-4 py-3 sm:px-6 sm:py-3 rounded-full font-bold hover:bg-white hover:text-black transition duration-300 mb-4 sm:mb-0"
+            >
+              RSVP to CultureFest(Non-ASU)
             </a>
           </div>
         </div>
