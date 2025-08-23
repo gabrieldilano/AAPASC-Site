@@ -25,9 +25,6 @@ export default function Nav() {
           <Link to="/culturefest" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
             CULTUREFEST
           </Link>
-          {/* <Link to="/events" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
-            EVENTS
-          </Link> */}
          
           <Link to="/community" className="navbar-link text-lg hover:text-gray-500 transition duration-300">
             COMMUNITY
